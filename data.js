@@ -1,4 +1,4 @@
-// 88 Questions
+// 100 Questions
 const questions = [
     {
         question: "If you have a bowl with six apples and you take away four, how many do you have?",
@@ -889,6 +889,114 @@ const questions = [
             { text: "Complete the task with the earliest deadline", correct: false },
             { text: "Assess the impact of each task and choose the one with the greater impact", correct: true },
             { text: "Randomly choose which task to complete first", correct: false }
+        ]
+    },
+    {
+        question: "You are a project manager and a critical team member suddenly falls ill. What should be your immediate action?",
+        answers: [
+            { text: "Reassign their tasks to other team members", correct: true },
+            { text: "Wait for them to recover", correct: false },
+            { text: "Ask them to work from home despite being ill", correct: false },
+            { text: "Pause the project until they return", correct: false }
+        ]
+    },
+    {
+        question: "You are faced with two conflicting recommendations from senior team members on a strategic decision. What should you do?",
+        answers: [
+            { text: "Choose the recommendation of the more experienced team member", correct: false },
+            { text: "Seek a third opinion and make an informed decision", correct: true },
+            { text: "Go with your gut feeling", correct: false },
+            { text: "Flip a coin to decide", correct: false }
+        ]
+    },
+    {
+        question: "You have been offered two equally good job opportunities in different cities. What should you consider first?",
+        answers: [
+            { text: "The salary packages of both jobs", correct: false },
+            { text: "The long-term career growth potential in each job", correct: true },
+            { text: "The city you prefer to live in", correct: false },
+            { text: "The opinions of your family and friends", correct: false }
+        ]
+    },
+    {
+        question: "Your company is considering a risky investment that could potentially bring high returns. How should you proceed?",
+        answers: [
+            { text: "Invest a small amount to test the waters", correct: true },
+            { text: "Invest the full amount to maximize potential returns", correct: false },
+            { text: "Avoid the investment to prevent any risk", correct: false },
+            { text: "Invest based on your competitor's actions", correct: false }
+        ]
+    },
+    {
+        question: "You find out that a close colleague is engaging in unethical behavior. What is your first course of action?",
+        answers: [
+            { text: "Report the colleague to HR immediately", correct: false },
+            { text: "Gather evidence and then report", correct: false },
+            { text: "Speak to the colleague directly about your concerns", correct: true },
+            { text: "Ignore it because it's not your business", correct: false }
+        ]
+    },
+    {
+        question: "Your company is facing a financial crisis and must make cuts. Which department should be considered first for budget reductions?",
+        answers: [
+            { text: "The department with the lowest performance metrics", correct: true },
+            { text: "The newest department", correct: false },
+            { text: "The department with the highest salaries", correct: false },
+            { text: "The largest department", correct: false }
+        ]
+    },
+    {
+        "question": "You are offered a promotion that requires relocating to a different city, but your family is strongly opposed to the move. What do you do?",
+        "answers": [
+            { "text": "Take the promotion and relocate, prioritizing your career", "correct": false },
+            { "text": "Decline the promotion to keep your family happy", "correct": false },
+            { "text": "Discuss with your family to find a compromise that addresses everyone's concerns", "correct": true },
+            { "text": "Accept the promotion but travel back home on weekends", "correct": false }
+        ]
+    },
+    {
+        "question": "You are leading a project, and one of your team members consistently underperforms, affecting the whole team's progress. What is your course of action?",
+        "answers": [
+            { "text": "Reassign their tasks to other team members", "correct": false },
+            { "text": "Speak to them privately to understand the issue and offer support", "correct": true },
+            { "text": "Report them to upper management", "correct": false },
+            { "text": "Ignore the issue and hope it resolves itself", "correct": false }
+        ]
+    },
+    {
+        "question": "During a critical meeting, your manager proposes a strategy you strongly believe is flawed. How do you respond?",
+        "answers": [
+            { "text": "Agree with your manager to avoid conflict", "correct": false },
+            { "text": "Respectfully express your concerns and provide alternative solutions", "correct": true },
+            { "text": "Stay silent and discuss your concerns privately with your manager later", "correct": false },
+            { "text": "Publicly criticize the strategy in the meeting", "correct": false }
+        ]
+    },
+    {
+        "question": "You are working on a critical project with a tight deadline, and you are overwhelmed with tasks. What should you do?",
+        "answers": [
+            { "text": "Work extra hours to complete everything yourself", "correct": false },
+            { "text": "Delegate some tasks to your team and prioritize the most important ones", "correct": true },
+            { "text": "Request an extension for the deadline", "correct": false },
+            { "text": "Ignore less important tasks and focus only on major ones", "correct": false }
+        ]
+    },
+    {
+        "question": "You witness a senior colleague taking credit for a project you significantly contributed to. How do you handle the situation?",
+        "answers": [
+            { "text": "Confront the colleague publicly", "correct": false },
+            { "text": "Discuss the issue privately with the colleague to seek recognition", "correct": true },
+            { "text": "Report the incident to your manager or HR", "correct": false },
+            { "text": "Let it go and focus on your future work", "correct": false }
+        ]
+    },
+    {
+        "question": "You are managing a project, and a key stakeholder requests a major change close to the deadline. What is your course of action?",
+        "answers": [
+            { "text": "Refuse the change to stay on schedule", "correct": false },
+            { "text": "Accept the change without considering the impact", "correct": false },
+            { "text": "Assess the feasibility and communicate the implications before deciding", "correct": true },
+            { "text": "Implement the change and hope for the best", "correct": false }
         ]
     }
 ];
