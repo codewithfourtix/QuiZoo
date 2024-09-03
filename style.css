@@ -107,9 +107,9 @@ body {
 }
 
 .correct {
-  background: #9aeabc;
+  background: #00ff6e;
 }
 
 .incorrect {
-  background: #73c3e2;
+  background: #ff0000;
 }
