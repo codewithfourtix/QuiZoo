@@ -1107,7 +1107,7 @@ const questions = [
       "You are working on a critical project with a tight deadline, and you are overwhelmed with tasks. What should you do?",
     answers: [
       {
-        text: "Work extra hours to complete everything yourself",
+        text: "Work extra hours to complete everything yourself.",
         correct: false,
       },
       {
