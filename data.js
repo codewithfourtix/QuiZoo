@@ -1130,7 +1130,7 @@ const questions = [
         text: "Discuss the issue privately with the colleague to seek recognition",
         correct: true,
       },
-      { text: "Report the incident to your manager or HR", correct: false },
+      { text: "Report the incident to your manager or Hr", correct: false },
       { text: "Let it go and focus on your future work", correct: false },
     ],
   },
