@@ -1,114 +1,115 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
-    background: #7979A7;
+  background: #7979a7;
 }
 
 .app {
-    width: 90%;
-    background: #fff;
-    max-width: 600px;
-    margin: 100px auto 0px;
-    border-radius: 10px;
-    padding: 30px;
-    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  width: 90%;
+  background: #fff;
+  max-width: 600px;
+  margin: 100px auto 0px;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 
 .main-line {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .app h1 {
-    font-size: 50px;
-    color: #001e4d;
-    font-weight: 600;
+  font-size: 50px;
+  color: #001e4d;
+  font-weight: 600;
 }
 
 .app p {
-    font-size: 12px;
-    font-weight: 200;
-    padding-left: 6px;
-    padding-bottom: 20px;
-    border-bottom: 1px solid #333;
+  font-size: 12px;
+  font-weight: 200;
+  padding-left: 6px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #333;
 }
 
 .quiz {
-    padding: 25px 0px;
+  padding: 25px 0px;
 }
 
 .quiz h2 {
-    font-size: 18px;
-    color: #001e4d;
-    font-weight: 600;
+  font-size: 18px;
+  color: #001e4d;
+  font-weight: 600;
 }
 
 .btn {
-    background: #fff;
-    color: #222;
-    width: 100%;
-    padding: 10px;
-    font-weight: 500;
-    text-align: left;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: all 0.3s;
-    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-    border: none;
-    margin: 15px 0px;
-    height: 46px;
+  background: #fff;
+  color: #222;
+  width: 100%;
+  padding: 10px;
+  font-weight: 500;
+  text-align: left;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  border: none;
+  margin: 15px 0px;
+  height: 46px;
 }
 
 #answer-buttons {
-    margin-top: 11px;
+  margin-top: 11px;
 }
 
 .btn:hover:not([disabled]) {
-    background: #222;
-    color: #fff;
+  background: #222;
+  color: #fff;
 }
 
 .btn:disabled {
-    cursor: no-drop;
+  cursor: no-drop;
 }
-.buttons-world{
-    display: flex;
+.buttons-world {
+  display: flex;
 }
 #next-btn {
-    background: #001e4d;
-    color: #fff;
-    font-weight: 500;
-    width: 150px;
-    border: 0;
-    border-radius: 4px;
-    padding: 10px;
-    margin: 20px auto 0px;
-    cursor: pointer;
-    display: none;
+  background: #001e4d;
+  color: #fff;
+  font-weight: 500;
+  width: 150px;
+  border: 0;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 20px auto 0px;
+  cursor: pointer;
+  display: none;
 }
 
 #download-btn {
-    background: #001e4d;
-    color: #fff;
-    font-weight: 500;
-    width: 150px;
-    border: 0;
-    border-radius: 4px;
-    padding: 10px;
-    margin: 20px auto 0px;
-    cursor: pointer;
+  background: #001e4d;
+  color: #fff;
+  font-weight: 500;
+  width: 150px;
+  border: 0;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 20px auto 0px;
+  cursor: pointer;
 }
 
 .correct {
-    background: #9aeabc;
+  background: #9aeabc;
 }
 
 .incorrect {
-    background: #ff9393;
+  background: #73c3e2;
 }
