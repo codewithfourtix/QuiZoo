@@ -4,7 +4,7 @@ const questions = [
     question:
       "If you have a bowl with six apples and you take away four, how many do you have?",
     answers: [
-      { text: "Two", correct: false },
+      { text: "three", correct: false },
       { text: "Zero", correct: false },
       { text: "Four", correct: true },
       { text: "Six", correct: false },
