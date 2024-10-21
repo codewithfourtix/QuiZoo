@@ -1,4 +1,4 @@
-// 100 Questions : 
+// 99 Questions : 
 const questions = [
   {
     question:
@@ -8,16 +8,6 @@ const questions = [
       { text: "Zero", correct: false },
       { text: "Four", correct: true },
       { text: "Six", correct: false },
-    ],
-  },
-  {
-    question:
-      "A plane crashes on the border of the United States and Canada. Where do they bury the survivors?",
-    answers: [
-      { text: "No Where", correct: true },
-      { text: "United States", correct: false },
-      { text: "Canada", correct: false },
-      { text: "Split them between both", correct: false },
     ],
   },
   {
